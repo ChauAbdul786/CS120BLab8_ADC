@@ -29,11 +29,9 @@ int main(void) {
     DDRB = 0xFF; PORTB = 0x00;
 
     /* Insert your solution below */
-    unsigned char resB;
     ADC_init();
     while (1) {
         x = ADC;
-        resB = (char)(x);
 
         if(x >= max / 2) {
             PORTB = 0x01;
