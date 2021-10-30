@@ -1,8 +1,8 @@
 /*  Author: Abdullah Chaudhry
  *  Partner(s) Name: 
  *  Lab Section: 021
- *  Assignment: Lab #8  Exercise #3
- *  Exercise Description: Take the value read by the photoresistor and illuminate an LED connected to P0 if the value is greater than (max / 2)
+ *  Assignment: Lab #8  Exercise #4
+ *  Exercise Description: Take the value read by the photoresistor and illuminate an LED connected to PORTB sequentially depending on the light level.
  *
  *  I acknowledge all content contained herein, excluding template or example
  *  code, is my own original work.
